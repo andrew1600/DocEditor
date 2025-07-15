@@ -6,7 +6,9 @@ Server maintains a document in a linked list data structure.  At a specified tim
 
 Client connects to the server by initially sending a signal handshake.  From then, mkfifos are opened up and edits and requests are sent to and from the server.
 
-First run make
+First run:
+make server
+make client
 
 1. Start the server by running it with the following command.
 <TIME INTERVAL> is the time interval in milliseconds at which the versions of the document updates.
